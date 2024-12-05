@@ -252,6 +252,61 @@
             </li>
             <li class="task-item">
               <p class="task-header">Третє завдання:</p>
+              <p class="task-description">
+                Оголоси функцію getElementWidth, яка очікує три параметри,
+                значення яких будуть задаватися під час її виклику: <br />•
+                content— перший параметр, ширина контенту <br />• padding —
+                другий параметр, значення горизонтального падінгу для кожної зі
+                сторін <br />• border — третій параметр, значення товщини
+                бордера для кожної зі сторін Значення всіх параметрів будуть
+                рядками формату Npx де N — це довільне число, ціле або дробове.
+                <br />Доповни код функції так, щоб вона повертала число —
+                загальну ширину елемента. При розрахунку загальної ширини
+                орієнтуйся на те, що значення box-sizing дорівнює border-box.
+              </p>
+              <form class="tasc-form">
+                <div class="field-container">
+                  <label class="tasc-field-label"
+                    >Введіть ширину контенту:
+                    <input
+                      class="second-task-arg-field"
+                      type="text"
+                      name="content"
+                      id="content"
+                  /></label>
+                  <label class="tasc-field-label"
+                    >Введіть ширину паддінга:
+                    <input
+                      class="second-task-arg-field"
+                      type="text"
+                      name="padding"
+                      id="padding"
+                  /></label>
+                  <label class="tasc-field-label"
+                    >Введіть товщину бордера:
+                    <input
+                      class="second-task-arg-field"
+                      type="text"
+                      name="border"
+                      id="border"
+                  /></label>
+                </div>
+                <button
+                  type="button"
+                  id="third-task-res-button"
+                  class="getFirstTaskResult"
+                >
+                  Дивитись результат:
+                </button>
+                <label for=""
+                  >Результат виконання функції:
+                  <input
+                    type="text"
+                    name="third-task-result-field"
+                    id="third-task-result-field"
+                    class="first-task-res-field"
+                /></label>
+              </form>
             </li>
           </ul>
         </div>

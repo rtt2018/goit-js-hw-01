@@ -23,3 +23,17 @@ secondResButton.addEventListener("click", () => {
     Number.parseInt(deliveryFee.value)
   );
 });
+
+const thirdResButton = document.getElementById("third-task-res-button");
+const contentWidth = document.getElementById("content");
+const paddingWidth = document.getElementById("padding");
+const borderWidth = document.getElementById("border");
+const resThirdField = document.getElementById("third-task-result-field");
+
+thirdResButton.addEventListener("click", () => {
+  resThirdField.value = getElementWidth(
+    contentWidth.value,
+    paddingWidth.value,
+    borderWidth.value
+  );
+});
